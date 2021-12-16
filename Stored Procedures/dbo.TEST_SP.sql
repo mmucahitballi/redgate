@@ -9,6 +9,6 @@ BEGIN
 	SET NOCOUNT ON;
 	
 	
-	SELECT GETDATE() AS 'DATE', * FROM Birds AS b
+	SELECT GETDATE() AS 'DATE', 'Conflict' AS 'CONF',  * FROM Birds AS b
 END
 GO
